@@ -9,6 +9,21 @@ https://www.youtube.com/watch?v=PMtXhxW6t2k
 
 Tutorial
 https://react-component-depot.netlify.app/leaflet/markers
+https://egghead.io/lessons/react-change-the-location-of-a-react-leaflet-map-with-leaflet-s-flyto-and-setview
+
+React-Leaflet v3: Creating a Mapping Application
+https://javascript.plainenglish.io/react-leaflet-v3-creating-a-mapping-application-d5477f19bdeb
+
+//GH leaflet-react
+https://github.com/PaulLeCam/react-leaflet/
+
+//v2 to v3
+You can set the start position of your map as well as any options you need but you cannot update them and expect the map to react. We are now forced to use Leaflet methods on the map instance to interact with it however you need. Here’s what the above example looks like after its migrated:
+https://sean-rennie.medium.com/migrating-react-leaflet-from-v2-to-v3-12d6088af191
+
+//Change center on v3 react-leaflet
+//http://5.9.10.113/65546744/not-able-to-change-center-dynamically-in-react-leaflet
+//codesandbox.io/s/how-to-change-center-dynamically-in-react-leaflet-v3x-d8rn7?file=/src/App.js:0-1142
 
 1. npm install react react-dom leaflet
 

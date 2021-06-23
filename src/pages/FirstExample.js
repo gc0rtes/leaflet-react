@@ -29,8 +29,8 @@ export default function App() {
   const MapPinComponent = () => {
     useMapEvents({
       click: (e) => {
-        const x = e.latlng.lng;
         const y = e.latlng.lat;
+        const x = e.latlng.lng;
         console.log("You clicked the map at LAT: " + y + " and LNG: " + x);
         setMarkerPosition({
           lat: y,
