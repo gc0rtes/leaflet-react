@@ -28,11 +28,9 @@ function SetViewOnClick({ coords }) {
   return null;
 }
 
-function MapComp({ coords }) {
-  const [markerPosition, setMarkerPosition] = useState({
-    lat: 52.05579,
-    lng: 4.28593,
-  });
+//Map Component start HERE
+export default function MapComp({ coords, myMarker }) {
+  const [markerPosition, setMarkerPosition] = useState(myMarker);
 
   const MapPinComponent = () => {
     useMapEvents({
@@ -40,10 +38,7 @@ function MapComp({ coords }) {
         const y = e.latlng.lat;
         const x = e.latlng.lng;
         console.log("You clicked the map at LAT: " + y + " and LNG: " + x);
-        setMarkerPosition({
-          lat: y,
-          lng: x,
-        });
+        setMarkerPosition([y, x]);
       },
     });
     return null;
@@ -72,5 +67,3 @@ function MapComp({ coords }) {
     </MapContainer>
   );
 }
-
-export default MapComp;

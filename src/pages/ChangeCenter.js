@@ -4,7 +4,9 @@ import React, { useState, useEffect } from "react";
 import "./styles.css";
 import MapComp from "./MapComp";
 
-export default function App() {
+export default function ChangeCenter() {
+  const [myMarker, setMyMarker] = useState([36.2048, 138.2529]);
+
   const [countries, setcountries] = useState([
     {
       India: [20.5937, 78.9629],
@@ -45,7 +47,7 @@ export default function App() {
           );
         })}
       </select>
-      <MapComp coords={coords} />
+      <MapComp coords={coords} myMarker={myMarker} />
     </div>
   );
 }
