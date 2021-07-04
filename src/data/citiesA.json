@@ -1,0 +1,112 @@
+[
+  {
+    "city": "Mumbai",
+    "admin": "Maharashtra",
+    "country": "India",
+    "population_proper": "12691836",
+    "iso2": "IN",
+    "capital": "admin",
+    "lat": "18.987807",
+    "lng": "72.836447",
+    "population": "18978000"
+  },
+  {
+    "city": "Delhi",
+    "admin": "Delhi",
+    "country": "India",
+    "population_proper": "7633213",
+    "iso2": "IN",
+    "capital": "admin",
+    "lat": "28.651952",
+    "lng": "77.231495",
+    "population": "15926000"
+  },
+  {
+    "city": "Kolkata",
+    "admin": "West Bengal",
+    "country": "India",
+    "population_proper": "4631392",
+    "iso2": "IN",
+    "capital": "admin",
+    "lat": "22.562627",
+    "lng": "88.363044",
+    "population": "14787000"
+  },
+  {
+    "city": "Chennai",
+    "admin": "Tamil Nadu ",
+    "country": "India",
+    "population_proper": "4328063",
+    "iso2": "IN",
+    "capital": "admin",
+    "lat": "13.084622",
+    "lng": "80.248357",
+    "population": "7163000"
+  },
+  {
+    "city": "Bengaluru",
+    "admin": "Karnataka",
+    "country": "India",
+    "population_proper": "5104047",
+    "iso2": "IN",
+    "capital": "admin",
+    "lat": "12.977063",
+    "lng": "77.587106",
+    "population": "6787000"
+  },
+  {
+    "city": "Hyderabad",
+    "admin": "Andhra Pradesh",
+    "country": "India",
+    "population_proper": "3597816",
+    "iso2": "IN",
+    "capital": "admin",
+    "lat": "17.384052",
+    "lng": "78.456355",
+    "population": "6376000"
+  },
+  {
+    "city": "Ahmadabad",
+    "admin": "Gujarat",
+    "country": "India",
+    "population_proper": "3719710",
+    "iso2": "IN",
+    "capital": "minor",
+    "lat": "23.025793",
+    "lng": "72.587265",
+    "population": "5375000"
+  },
+  {
+    "city": "Haora",
+    "admin": "West Bengal",
+    "country": "India",
+    "population_proper": "1027672",
+    "iso2": "IN",
+    "capital": "",
+    "lat": "22.576882",
+    "lng": "88.318566",
+    "population": "4841638"
+  },
+  {
+    "city": "Pune",
+    "admin": "Maharashtra",
+    "country": "India",
+    "population_proper": "2935744",
+    "iso2": "IN",
+    "capital": "",
+    "lat": "18.513271",
+    "lng": "73.849852",
+    "population": "4672000"
+  },
+  {
+    "city": "S\u016brat",
+    "admin": "Gujarat",
+    "country": "India",
+    "population_proper": "2894504",
+    "iso2": "IN",
+    "capital": "",
+    "lat": "21.195944",
+    "lng": "72.830232",
+    "population": "3842000"
+  }
+]

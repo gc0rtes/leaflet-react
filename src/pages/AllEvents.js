@@ -16,7 +16,7 @@ const markerIcon = new L.Icon({
 const MarkersMap = () => {
   const [center, setCenter] = useState({ lat: 13.084622, lng: 80.248357 });
   const ZOOM_LEVEL = 4;
-  const mapRef = useRef();
+  // const mapRef = useRef();
 
   return (
     <>
@@ -29,7 +29,7 @@ const MarkersMap = () => {
               className="myMap"
               center={center}
               zoom={ZOOM_LEVEL}
-              ref={mapRef}
+              // ref={mapRef}
             >
               <TileLayer
                 //Do NOT change/remove this copyright - it can brake the App!

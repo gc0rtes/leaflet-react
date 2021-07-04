@@ -32,7 +32,7 @@ export default function ChangeCenter() {
   };
 
   useEffect(() => {
-    console.log(coords);
+    // console.log(coords);
   }, [coords]);
 
   return (

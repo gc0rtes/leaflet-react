@@ -2,12 +2,58 @@
   height: 500px;
   width: 500px;
 }
+/*
 .container {
   min-height: 100vh;
-  /* central axis still be column*/
+  /* central axis still be column
   display: flex;
-  /* to align vertically*/
+  /* to align vertically
   align-items: center;
-  /* to align horizontally */
+  /* to align horizontally 
   justify-content: center;
+}
+*/
+
+/*=======CSS FROM https://codepen.io/tforward/pen/ZPeZxd*/
+
+.container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.header {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding: 0 1rem;
+}
+
+.title {
+  /* Fallback for calc / vmin */
+  font-size: 2rem;
+  font-size: calc(2vmin + 1rem);
+}
+
+.map-container {
+  height: 100%;
+  /* Fallback for vmin */
+  padding: 0px 1rem 1rem 1rem;
+  padding: 0px 1vmin 1vmin 1vmin;
+}
+
+.map-frame {
+  height: 100%;
+  width: 100%;
+  /*   We use outline over border as has issues in some cases */
+  outline: 1px solid black;
+}
+
+#map-id {
+  height: 100%;
 }
